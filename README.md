@@ -13,7 +13,7 @@ docker build . -t docu:1.1
 ### Run Dockerfile
 
 ```
-docker run -p 80:3000 docu:1.6 -d
+docker run -d  -p 80:3000 docu:1.1
 
 ```
 
